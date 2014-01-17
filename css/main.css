@@ -1,3 +1,60 @@
+html, body
+{
+    height: 100%;
+    background: linear-gradient(#cbd1dd, #cbd1dd, white); /* Standard syntax */
+}
+
+.container {
+    width: 800px;
+    height: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*
