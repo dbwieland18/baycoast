@@ -9,7 +9,7 @@ html, body {
 
 .container {
     width: 800px;
-    height: 1250px;
+    height: 1300px;
     margin: 0 auto;
     background-color: white;
     box-shadow: 5px 5px 10px gray;
@@ -18,7 +18,7 @@ html, body {
 /*--------------------------------------*/
 
 section, #disclaimer {
-    width: 430px;
+    width: 410px;
     float: left;
 }
 
@@ -67,6 +67,12 @@ span {
 
 #disclaimer {
     float: left;
+}
+
+#wufoo-r84f9i0942lt3 {
+    float: right;
+    width: 250px;
+    margin-right: 30px;
 }
 
 
