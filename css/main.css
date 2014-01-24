@@ -9,7 +9,7 @@ html, body {
 
 .container {
     width: 800px;
-    height: 1300px;
+    height: 1450px;
     margin: 0 auto;
     background-color: white;
     box-shadow: 5px 5px 10px gray;
@@ -18,7 +18,7 @@ html, body {
 /*--------------------------------------*/
 
 section, #disclaimer {
-    width: 410px;
+    width: 380px;
     float: left;
 }
 
@@ -30,9 +30,14 @@ header, section, footer {
     margin: 30px 0 0 40px;
 }
 
+#disclaimer {
+    margin-top: 135px;
+    font-size: 10px;
+}
+
 #mass_save_logo {
     float: right;
-    margin: 0 40px 0 30px;
+    margin: 100px 40px 0 30px;
 }
 
 #button {
@@ -72,23 +77,62 @@ span {
 #wufoo-r84f9i0942lt3 {
     float: right;
     width: 250px;
-    margin-right: 30px;
+    margin: 90px 30px 0px 0px;
 }
 
+#image-spread {
+    float: right;
+    margin-top: 50px;
+}
+
+#image-spread li {
+    list-style: none;
+}
+
+#image-spread img {
+    width: 250px;
+    height: auto;
+    border: 5px solid white;
+    margin: 10px 40px 10px 0px;
+    box-shadow: 5px 5px 10px gray
+}
+
+#socks {
+    position: relative;
+    z-index:1;
+    transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg); /* IE 9 */
+    -webkit-transform:rotate(-15deg); /* Safari and Chrome */
+}
+
+#costs {
+    position: relative;
+    z-index:2;
+    transform:rotate(15deg);
+    -ms-transform:rotate(15deg); /* IE 9 */
+    -webkit-transform:rotate(15deg); /* Safari and Chrome */
+}
+
+#thermostat {
+    position: relative;
+    z-index:1;
+    transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg); /* IE 9 */
+    -webkit-transform:rotate(-15deg); /* Safari and Chrome */
+}
 
 /* list item reset ------------------*/
 
-ul {
+#prog-spec {
     list-style: none;
     padding:0;
     margin:0;
 }
-
-li { 
+#prog-spec li { 
     line-height: 2.0;
 }
 
-li:before {
+#prog-spec li:before {
     content: "• ";
     color: #d28b06; 
 }
