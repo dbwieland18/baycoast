@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    background: linear-gradient(#cbd1dd, #cbd1dd, white); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 250px;
+	text-transform: uppercase;
+    color: #014079;
+    font-size: 30px;
+}
