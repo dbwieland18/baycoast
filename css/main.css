@@ -38,7 +38,7 @@ header, section, footer {
 
 #mass_save_logo {
     float: right;
-    margin: 100px 40px 0 30px;
+    margin: 80px 40px 0 30px;
 }
 
 #button {
@@ -65,6 +65,14 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+    color: #d18c1d;
+}
+
+header {
+    line-height: 0.7;
+}
+
 span {
     color: #064081;
     font-weight: bold;
@@ -82,8 +90,7 @@ span {
     margin: 90px 30px 0px 0px;
     border: 3px solid #f6bb45;
     padding: 5px;
-    border-radius: 5px;
-    clear: ;
+    border-radius: 10px;
 }
 
 .highlight {
